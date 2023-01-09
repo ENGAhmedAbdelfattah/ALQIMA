@@ -1,0 +1,11 @@
+// common
+@use '../../../common/landingSections';
+// sections
+@use "./sections/landing/landing";
+@use "./sections/statistics/statistics";
+@use "./sections/benefitJoin/benefitJoin";
+@use "./sections/benefitJoin/units/benefitItem"; // units of this section
+@use "./sections/learning/learning";
+@use "./sections/getApp/getApp";
+@use "./sections/opinionsUsers/opinionsUsers";
+@use "./sections/opinionsUsers/units/opinionsItem"; // units of this section

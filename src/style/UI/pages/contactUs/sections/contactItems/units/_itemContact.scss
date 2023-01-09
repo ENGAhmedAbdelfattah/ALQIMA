@@ -1,0 +1,42 @@
+@use "../../../../../../common/variable" as v;
+
+div.item-contact {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  border-radius: 15px;
+  gap: 29px;
+  background-color: v.$benefit_background;
+  @media (max-width: 767.98px) {
+    padding: 20px;
+    gap: 20px;
+  }
+  div.item-image {
+    width: 67px;
+    height: 67px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  div.item-content {
+    flex-grow: 1;
+    h4.item-header {
+      color: v.$main-section-color;
+      font-size: 28px;
+      @media (max-width: 767.98px) {
+        font-size: 23px;
+      }
+    }
+
+    p.item-contact-address {
+      color: v.$contact_address;
+      font-size: 23px;
+      width: fit-content;
+      @media (max-width: 767.98px) {
+        font-size: 21px;
+      }
+    }
+  }
+}

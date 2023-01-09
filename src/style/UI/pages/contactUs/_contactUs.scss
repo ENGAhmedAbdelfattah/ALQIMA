@@ -1,0 +1,10 @@
+@use './sections/contactLanding/contactLanding';
+@use './sections/contactItems/contactItems';
+@use './sections/contactItems/units/itemContact'; // units of contactItems
+@use './sections/contactForm/contactForm';
+
+.contact-page {
+  // opacity: 30%;
+  position: relative;
+  z-index: 1;
+}

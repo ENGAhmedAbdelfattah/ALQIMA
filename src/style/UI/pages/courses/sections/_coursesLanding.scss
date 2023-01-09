@@ -1,0 +1,208 @@
+@use "../../../../common/variable" as v;
+@use "../../../../common/mixin" as m;
+
+section.coursesLanding {
+  // opacity: 30%;
+  div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 229px;
+    div.content-box {
+      h1.main-header {
+        color: v.$secund_words_color;
+        font-size: 53px;
+        font-weight: 500;
+        word-spacing: 2px;
+        max-width: 696px;
+        margin: auto;
+        position: relative;
+        z-index: 997;
+        &::before {
+          content: "";
+          background-image: url(http://localhost:3000/static/media/Pattern2.5ddfeb05dd947c234b6f.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+          position: absolute;
+          top: -94px;
+          left: 6px;
+          width: 129px;
+          height: 129px;
+          z-index: -1;
+          @media (max-width: 767.98px) {
+            top: -52px;
+            left: -34px;
+            width: 81px;
+            height: 81px;
+          }
+          @at-root html[dir="rtl"]
+              section.coursesLanding
+              h1.main-header::before {
+            left: auto !important;
+            right: -50px;
+            @media (max-width: 767.98px) {
+              left: -34px;
+            }
+          }
+        }
+        @media (max-width: 767.98px) {
+          font-size: 24px;
+          max-width: 395px;
+        }
+        @media (min-width: 991.98px) {
+          font-size: 53px;
+          line-height: 1;
+        }
+      }
+
+      div.search-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: v.$back_search_courses;
+        border-radius: 18px;
+        width: 791px;
+        margin-top: 50px;
+        padding: 10px;
+        @media (max-width: 767.98px) {
+          width: 333px;
+          flex-direction: column;
+        }
+        @media (min-width: 767.98px) and (max-width: 991.98px) {
+          width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        div.search-right {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-grow: 1;
+          width: 100%;
+          div.search-box-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i.fa-solid.fa-magnifying-glass {
+              color: v.$secund_words_color;
+              padding-left: 10px;
+              @media (max-width: 767.98px) {
+                font-size: 30px;
+              }
+            }
+          }
+          div.search-box-input {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            form {
+              width: 100%;
+              flex-grow: 1;
+              input {
+                display: block;
+                border: none;
+                outline: none;
+                width: 100%;
+                background-color: transparent;
+                padding: 8px;
+                font-size: 20px;
+                caret-color: v.$main_words_color;
+                color: v.$main_words_color;
+                &::placeholder {
+                  color: v.$courses_placeholder;
+                }
+              }
+            }
+          }
+        }
+        button.search-box-button {
+          @include m.coButton(18px, 10px, 28px);
+          margin-right: 5px;
+          border-radius: 10px;
+          @media (max-width: 767.98px) {
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+    div.bullets-item {
+      position: absolute;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      z-index: 990;
+      @media (max-width: 767.98px) {
+        width: 25px;
+        height: 25px;
+      }
+      &:nth-child(1) {
+        background-color: v.$landing-bullet-one;
+        top: 0;
+        left: -22px;
+        @media (max-width: 767.98px) {
+          top: 0;
+          left: -14px;
+        }
+      }
+      &:nth-child(2) {
+        background-color: v.$landing-bullet-three;
+        bottom: 124px;
+        left: 277px;
+        @media (max-width: 767.98px) {
+          background-color: v.$landing-bullet-three;
+          bottom: 184px;
+          lft: 266px;
+        }
+      }
+      &:nth-child(3) {
+        background-color: v.$landing-bullet-two;
+        top: 15%;
+        right: 389px;
+        @media (max-width: 991px) {
+          top: 13%;
+          right: 258px;
+        }
+        @media (max-width: 768px) {
+          top: 13%;
+          right: 101px;
+        }
+      }
+      &:nth-child(4) {
+        background-color: v.$landing-bullet-four;
+        top: 35%;
+        right: -40px;
+        @media (max-width: 767.98px) {
+          top: 285;
+          right: -6px;
+        }
+      }
+      &:nth-child(5) {
+        background-color: v.$landing-bullet-five;
+        bottom: -11px;
+        right: 75px;
+        @media (max-width: 767.98px) {
+          bottom: 15%;
+          left: 74px;
+        }
+        @at-root html[dir="rtl"]
+            section.coursesLanding
+            div.bullets-item:nth-child(5) {
+          left: auto !important;
+          right: 249px;
+        }
+      }
+      &:nth-child(6) {
+        background-color: v.$landing-bullet-one;
+        top: 18%;
+        left: -22px;
+        @media (max-width: 767.98px) {
+          top: 141px;
+          left: 11px;
+        }
+      }
+    }
+  }
+}

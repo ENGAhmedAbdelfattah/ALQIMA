@@ -1,0 +1,82 @@
+@use "./variable" as v;
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 1200;
+  @at-root html[dir="rtl"] body {
+    font-family: "Tajawal", sans-serif;
+  }
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* small */
+@media (max-width: 767.9px) {
+  .container {
+    width: 357px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container-wrapped {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* small */
+@media (max-width: 767.9px) {
+  .container-wrapped {
+    width: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-wrapped {
+    width: 976px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container-wrapped {
+    width: 1094px;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .container-wrapped {
+    // width: 1358px;
+    width: 1375px;
+  }
+}

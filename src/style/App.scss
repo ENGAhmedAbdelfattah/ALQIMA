@@ -1,0 +1,40 @@
+// use common
+@use "./common/normalize";
+@use "./common/globalRules";
+@use "./common/myFramework";
+@use "./common/AllItems";
+@use "./common/tmPreload";
+// UI
+// navLinks
+@use "./UI/navLinks/navLinks";
+// pages
+@use "./UI/pages/home/home";
+@use "./UI/pages/contactUs/contactUs";
+@use "./UI/pages/loginAndSignUp/loginAndSignUp";
+@use "./UI/pages/notfound/notFound";
+@use "./UI/pages/courses/courses";
+@use "./UI/pages/teachers/teachers";
+// footer
+@use "./UI/footer/footer";
+
+.App {
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+.for-test {
+  display: none;
+  // margin-top: 90px;
+  width: 100vw -1;
+  // filter: opacity(20%);
+  // -webkit-filter: opacity(35%);
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  img {
+    display: block;
+    width: 100%;
+  }
+  z-index: -1;
+}

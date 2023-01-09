@@ -1,0 +1,168 @@
+@use "../../../../../common/variable" as v;
+
+section.get-app {
+  // opacity: 30%;
+  // margin-top: 356px;
+  // margin-left: 58px;
+  // overflow: hidden;
+  background-color: v.$sec-back-sections;
+
+  div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    @media (max-width: 991px) {
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+    }
+    div.getApp-left {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      @media (max-width: 991px) {
+        width: 100%;
+        margin: auto;
+      }
+      div:is(.image-hand-one, .image-hand-two) {
+        border-radius: 41px;
+        box-shadow: 29px 0 5px 0 #eef0f396;
+        @media (min-width: 768px) and (max-width: 991px) {
+          margin: auto;
+          transform: translateX(-113px);
+        }
+        @at-root html[dir="rtl"] section.get-app div.getApp-left {
+          @media (min-width: 768px) and (max-width: 991px) {
+            transform: translateX(187px) !important;
+          }
+        }
+        @at-root html[dir="rtl"]
+            section.get-app
+            div.getApp-left
+            div:is(.image-hand-one, .image-hand-two) {
+          box-shadow: -29px 0 5px 0 #eef0f396;
+        }
+      }
+      div.image-hand-one {
+        position: relative;
+        left: 0;
+        width: 262px;
+        z-index: 999;
+        @media (max-width: 767.98px) {
+          width: 203px;
+        }
+
+        @at-root html[dir="rtl"] section.get-app div.image-hand-one {
+          left: auto !important;
+          right: 0;
+          @media (max-width: 767.98px) {
+            width: 180px !important;
+          }
+        }
+        &::before {
+          content: "";
+          background-image: url("../../../../../../assets/pattern/Pattern2.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          position: absolute;
+          top: -25px;
+          left: -9%;
+          width: 129px;
+          height: 129px;
+          z-index: -1;
+          @at-root html[dir="rtl"] section.get-app div.image-hand-one::before {
+            left: auto !important;
+            right: -9%;
+          }
+          @media (max-width: 767.98px) {
+            top: -20px;
+            width: 85px;
+            height: 85px;
+          }
+        }
+        div.image-hand-two {
+          position: absolute;
+          top: 50%;
+          right: -181px;
+          transform: translateY(-50%);
+          z-index: -1;
+          width: 227px;
+          @media (max-width: 767.98px) {
+            right: -150px;
+            width: 175px;
+          }
+          @at-root html[dir="rtl"] section.get-app div.image-hand-two {
+            right: auto !important;
+            left: -181px;
+            @media (max-width: 767.98px) {
+              right: auto !important;
+              left: -150px;
+            }
+          }
+          img.getApp-img {
+            width: 100%;
+          }
+        }
+        img.getApp-img {
+          width: 100%;
+        }
+      }
+    }
+
+    div.getApp-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      max-width: 50%;
+      @media (max-width: 991px) {
+        max-width: 100%;
+      }
+      h2.learn-header {
+        color: v.$main-section-color;
+        font-size: 47px;
+        margin: auto;
+        @media (max-width: 767.98px) {
+          font-size: 35px;
+        }
+      }
+
+      p.getApp-paragraph {
+        color: v.$sections_paragraph_color;
+        font-size: 21px;
+        margin-top: 9px;
+        margin: auto;
+        @media (max-width: 767.98px) {
+          margin-top: 30px;
+        }
+      }
+
+      div.get-app {
+        display: flex;
+        justify-content: center;
+        margin-top: 37px;
+        gap: 20px;
+        @media (max-width: 991.98px) {
+          margin: 12px auto;
+        }
+        @media (max-width: 767.98px) {
+          margin-top: 20px;
+        }
+        a.get-app-img {
+          display: block;
+          border-radius: 6px;
+          overflow: hidden;
+          img {
+            display: block;
+            @media (max-width: 767.98px) {
+              width: 145px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

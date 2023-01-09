@@ -1,0 +1,88 @@
+@use "../../../../common/variable" as v;
+div.courses-item {
+  background-color: v.$sec-back-sections;
+  border-radius: 20px;
+  overflow: hidden;
+  %item-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+  }
+  margin: auto;
+  div.hand-img {
+    width: 100%;
+    max-width: 360px;
+
+    img {
+      width: 100%;
+    }
+  }
+  div.item-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    div.item-content-top {
+      @extend %item-flex;
+      div.item-content-header {
+        background-color: v.$main-section-color;
+        color: white;
+        border-radius: 20px;
+        padding: 0 10px;
+      }
+      div.item-content-rate {
+        @extend %item-flex;
+        i.span-rate-icon.fas.fa-star,
+        span.rate-num {
+          color: v.$main_words_color;
+        }
+        span.span-rate-info {
+          color: v.$nav_paragraph_color;
+        }
+      }
+    }
+    div.item-content-paragraph {
+      color: v.$main-section-color;
+      font-size: 18px;
+    }
+    div.item-content-info {
+      @extend %item-flex;
+      font-size: 14px;
+      div.info-units {
+        @extend %item-flex;
+        i.fas.fa-users {
+        }
+        span.info-span {
+        }
+      }
+    }
+    div.item-content-bottom {
+      @extend %item-flex;
+      div.bottom-person {
+        @extend %item-flex;
+        div.bottom-person-image {
+          width: 25px;
+          height: 25px;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          border-radius: 50%;
+          overflow: hidden;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        div.bottom-person-name {
+          font-size: 14px;
+        }
+      }
+      div.bottom-price {
+        color: v.$main_words_color;
+        font-size: 18px;
+      }
+    }
+  }
+}

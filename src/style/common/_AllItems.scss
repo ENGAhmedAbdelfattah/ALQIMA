@@ -1,0 +1,180 @@
+@use "./variable" as v;
+@use "./mixin" as m;
+
+section.All {
+  margin-top: 70px;
+  margin-bottom: 300px;
+  div.container {
+    div.All-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: 767.98px) {
+        flex-direction: column;
+      }
+      h2.courses-header {
+        font-size: 38px;
+        color: v.$main-section-color;
+        @media (max-width: 991.98px) {
+          font-size: 30px;
+        }
+      }
+
+      div.courses-selected-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 22px;
+        @media (max-width: 767.98px) {
+          flex-direction: column;
+        }
+        @media (max-width: 991.98px) {
+          gap: 12px;
+        }
+        label.courses-selected-label {
+          font-size: 18px;
+          color: v.$main-section-color;
+          @media (max-width: 991.98px) {
+            font-size: 14px;
+          }
+        }
+        div.courses-select-box {
+          position: relative;
+          select.grade-select {
+            appearance: none;
+            border: none;
+            outline: none;
+            width: 270px;
+            font-size: 18px;
+            background-color: rgba(119, 119, 119, 0.082);
+            color: v.$option-color;
+            padding: 10px 18px;
+            border-radius: 5px;
+            @media (max-width: 991.98px) {
+              font-size: 14px;
+            }
+          }
+          i.select-icon {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            @at-root [dir="rtl"] i.select-icon {
+              right: auto !important;
+              left: 18px !important;
+            }
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+          }
+        }
+      }
+    }
+    div.All-header-filter {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        @media (max-width: 990.98px) {
+          justify-content: flex-start;
+          gap: 10px;
+        }
+        @media (max-width: 767.98px) {
+          justify-content: space-between;
+        }
+        a {
+          text-decoration: none;
+          margin-top: 43px;
+          @media (max-width: 767.98px) {
+            width: 130px;
+          }
+          &:not(.active) {
+            @include m.coButton(16px, 7px, 28px);
+            background-color: v.$filter-header-color;
+            color: v.$main-section-color;
+          }
+          &.active {
+            @include m.coButton(16px, 7px, 28px);
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8p;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+    div.All-sorted.All-top {
+      margin-top: 45px;
+      h2.courses-sorted.courses-header {
+        font-size: 26px;
+      }
+      div.courses-selected-box {
+        div.courses-select-box {
+          position: relative;
+          select.grade-select {
+            width: 200px;
+          }
+        }
+      }
+    }
+    div.All-items {
+      margin: auto;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      align-content: flex-start;
+      gap: 60px;
+      min-height: 1547px;
+    }
+    div.pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+      @at-root html[dir="rtl"] & i {
+        transform: scaleX(-1);
+      }
+      i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      i.start {
+        background-color: v.$sec-back-sections;
+        color: v.$sections_paragraph_color;
+      }
+      i.end {
+        background-color: v.$main-section-color;
+        color: v.$secund_words_color;
+      }
+      div.center-bullet {
+        margin: 0 15px;
+        display: flex;
+        gap: 8px;
+        div {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          &:not(.active) {
+            background-color: v.$nav_paragraph_color;
+          }
+          &.active {
+            background-color: v.$main_words_color;
+          }
+        }
+      }
+    }
+  }
+}

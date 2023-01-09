@@ -1,0 +1,17 @@
+@use "./variable" as v;
+
+@mixin coButton($fontSizing: 16px ,$paddingY: 15px, $paddingX: 28px) {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: $paddingY $paddingX;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: v.$main_words_color;
+  color: v.$secund_words_color;
+  font-size: $fontSizing;
+  font-weight: 400;
+}

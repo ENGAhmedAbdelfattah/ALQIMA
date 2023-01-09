@@ -1,0 +1,102 @@
+@use "../../../../../common/variable" as v;
+
+section.benefit-join {
+  // opacity: 30%;
+  background-color: v.$secund_words_color;
+  text-align: center;
+  margin-top: 135px;
+  div.container {
+    padding-top: 77px;
+    padding-bottom: 120px;
+    position: relative;
+    z-index: 997;
+    div.bullets-item {
+      position: absolute;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      z-index: 990;
+      @media (max-width: 767.98px) {
+        width: 25px;
+        height: 25px;
+      }
+      &:nth-child(1) {
+        background-color: v.$landing-bullet-one;
+        top: 0;
+        right: 0;
+      }
+      &:nth-child(2) {
+        background-color: v.$landing-bullet-two;
+        right: 0;
+        bottom: 0;
+        @media (max-width: 767.98px) {
+          bottom: 45px;
+        }
+      }
+      &:nth-child(3) {
+        background-color: v.$landing-bullet-three;
+        left: 0;
+        bottom: -40px;
+        @media (max-width: 767.98px) {
+          bottom: 12px;
+        }
+      }
+    }
+    div.top-box {
+      h2.benefit-header {
+        font-size: 40px;
+        font-weight: 700;
+        color: v.$main-section-color;
+        position: relative;
+        z-index: 999;
+        width: fit-content;
+        margin: 0 auto;
+        @media (max-width: 767.98px) {
+          font-size: 30px;
+        }
+        div.img-hand {
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: translate(-38%, -54%);
+          z-index: -1;
+          width: 100px;
+          height: 100px;
+          @at-root html[dir="rtl"] h2.benefit-header div.img-hand {
+            transform: translate(40%, -48%) !important;
+            left: auto !important;
+            right: 0;
+          }
+          @media (max-width: 767.98px) {
+            width: 65px;
+            height: 65px;
+            transform: translate(-38%, -54%);
+            transform: translate(2%, -42%);
+          }
+          img.pattern-join-img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      p.benefit-paragraph {
+        color: v.$landing-bullet-four;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 6px;
+        @media (max-width: 767.98px) {
+          font-size: 30px;
+        }
+      }
+    }
+    div.bottom-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(247px, 1fr));
+      // justify-content: center;
+      // align-items: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+  }
+}

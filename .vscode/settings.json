@@ -1,0 +1,22 @@
+{
+  "commentTranslate.targetLanguage": "ar",
+  "commentTranslate.hover.enabled": true,
+  "spellright.language": [
+    "ar",
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "json"
+  ],
+  "cSpell.words": [
+    "Abdelfattah",
+    "contactus",
+    "Formik",
+    "reduxjs",
+    "Yasser"
+  ],
+  "liveServer.settings.port": 5501
+}

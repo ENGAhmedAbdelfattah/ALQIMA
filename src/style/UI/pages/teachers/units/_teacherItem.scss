@@ -1,0 +1,42 @@
+@use "../../../../common/variable" as v;
+
+div.teacher-item {
+  // opacity: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: v.$benefit_background;
+  border-radius: 20px;
+  padding: 30px;
+  div.hand-teacher-img {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  h4.teacher-item-name {
+    color: v.$name_teachers;
+    font-size: 25px;
+  }
+
+  p.teacher-item-career {
+    color: v.$career_teachers;
+    font-size: 19px;
+  }
+
+  span.teacher-item-rate {
+    color: v.$landing-img-one;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 19px;
+    i.fas.fa-star {
+    }
+  }
+}

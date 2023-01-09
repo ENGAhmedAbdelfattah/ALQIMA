@@ -1,0 +1,191 @@
+@use "../../../../../common/variable" as v;
+@use "../../../../../common/mixin" as m;
+
+section.learning {
+  // opacity: 30%;
+  // margin-top: 460px;
+  overflow: hidden;
+  margin-top: 60px;
+  padding-bottom: 100px;
+  @media (max-width: 767.98px) {
+    margin-top: 0;
+  }
+  div.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    div.bullets-item {
+      position: absolute;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      z-index: 990;
+      @media (max-width: 767.98px) {
+        width: 25px;
+        height: 25px;
+      }
+      &:nth-child(1) {
+        background-color: v.$landing-bullet-one;
+        bottom: -99px;
+        right: -38px;
+        @media (max-width: 1199.98px) {
+          bottom: -99px;
+          right: 0;
+        }
+        @media (max-width: 767.98px) {
+          bottom: -74px;
+          right: 0px;
+        }
+        @at-root html[dir="rtl"]
+            section.learning
+            div.bullets-item:nth-child(1) {
+          right: auto !important;
+          left: -38px !important;
+          @media (max-width: 1199.98px) {
+            right: auto !important;
+            left: 0 !important;
+          }
+          @media (max-width: 767.98px) {
+            right: auto !important;
+            left: 0px !important;
+          }
+        }
+      }
+      &:nth-child(2) {
+        background-color: v.$landing-bullet-five;
+        left: 35%;
+        bottom: 16px;
+        @media (max-width: 767.98px) {
+          left: 0px;
+          bottom: 28px;
+        }
+        @media (min-width: 768px) and (max-width: 991px){
+          left: 0;
+          bottom: 0;
+        }
+        @at-root html[dir="rtl"]
+            section.learning
+            div.bullets-item:nth-child(2) {
+          left: auto !important;
+          right: 35% !important;
+          @media (max-width: 767.98px) {
+            left: auto !important;
+            right: 0 !important;
+          }
+          @media (min-width: 767.98px) {
+            left: auto !important;
+            right: 0px !important;
+          }
+        }
+      }
+    }
+    @media (max-width: 991.98px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      gap: 129px;
+    }
+    div.learning-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: auto;
+      position: "relative";
+      z-index: 999;
+      gap: 20px;
+      flex-grow: 1;
+      @media (max-width: 991.98px) {
+        align-items: center;
+        margin: auto;
+      }
+      h2.learn-header {
+        color: v.$main-section-color;
+        font-size: 48px;
+        max-width: 515px;
+        @media (max-width: 991.98px) {
+          font-size: 35px;
+        }
+        span.learn-header-span {
+          color: v.$main_words_color;
+        }
+      }
+
+      p.learning-paragraph {
+        color: v.$landing_paragraph_color;
+        font-size: 30px;
+        max-width: 500px;
+        @media (max-width: 991.98px) {
+          font-size: 21px;
+        }
+      }
+
+      button.join-us-now {
+        @include m.coButton(27px, 15px, 28px);
+        width: fit-content;
+      }
+    }
+
+    div.learning-right {
+      width: 437px;
+      border-radius: 13px;
+      box-shadow: 10px 10px 0 0 v.$main_words_color;
+      @at-root html[dir="rtl"]  section.learning div.learning-right {
+        box-shadow: -10px 10px 0 0 v.$main_words_color !important;
+      }
+      @media (max-width: 767.98px) {
+        width: 262px;
+      }
+      position: relative;
+      div.learning-img-before {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-30%, 43px);
+        @at-root html[dir="rtl"]  section.learning div.learning-img-before {
+          left: auto !important;
+          right: 0;
+          transform: translate(30%, 43px) !important;
+        }
+        @media (max-width: 767.98px) {
+          width: 172px;
+          height: 172px;
+        }
+        img.learning-img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      img.learning-img {
+        width: 100%;
+        height: 100%;
+      }
+      div.learning-img-after {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        right: 36px;
+        transform: translate(50%, -25px);
+        @at-root html[dir="rtl"] div.learning-img-after {
+          right: auto !important;
+          left: 36px;
+          transform: translate(-50%, -25px) !important;
+        }
+        @media (max-width: 767.98px) {
+          width: 141px;
+          height: 141px;
+        }
+        img.learning-img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+@use "../../../common/variable" as v;
+@use "../../../common/mixin" as m;
+
+section.login {
+  overflow: hidden;
+  .container-wrapped {
+    // opacity: 20%;
+    position: relative;
+    z-index: 1;
+    div.sign {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 660px;
+      max-height: 100vh;
+      gap: 20px;
+      @media (max-width: 991.98px) {
+        flex-direction: column;
+        max-height: none;
+      }
+      div.sign-left-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        min-width: 560px;
+        @media (max-width: 991.98px) {
+          margin-top: 50px;
+          margin-bottom: 30px;
+        }
+        @media (max-width: 767.98px) {
+          min-width: 0;
+        }
+        div.sign-left {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: calc(50% - 10px);
+          margin-top: -10px;
+          div.sign-left-top {
+            width: 100%;
+            div.hand-img {
+              margin: 0 auto;
+              width: 60px;
+              img {
+                width: 100%;
+              }
+            }
+
+            h2.sign-header {
+              color: v.$main-section-color;
+              text-align: center;
+              font-size: 24px;
+              letter-spacing: -1px;
+              line-height: 1.2;
+              margin-bottom: 3px;
+              margin-top: 0;
+            }
+
+            p.sign-paragraph {
+              color: v.$sections_paragraph_color;
+              text-align: center;
+              font-size: 14px;
+            }
+          }
+
+          div.sign-form {
+            width: 350px;
+            padding-top: 20px;
+            form {
+              div.sign-box {
+                margin-bottom: 12px;
+                label,
+                input {
+                  display: block;
+                }
+                label {
+                  color: v.$main-section-color;
+                  font-size: 14px;
+                }
+                label[htmlFor="login-checkbox"] {
+                  font-size: 10px;
+                  margin-right: 5px;
+                }
+                input {
+                  width: 100%;
+                  padding: 10px;
+                  border: 1px solid v.$border_input;
+                  -webkit-border-radius: 5px;
+                  -moz-border-radius: 5px;
+                  -ms-border-radius: 5px;
+                  -o-border-radius: 5px;
+                  border-radius: 5px;
+                }
+                ::placeholder {
+                  color: v.$placeholder;
+                }
+              }
+
+              div.text-remember,
+              p.bottom-paragraph {
+                font-size: 11px;
+                button.odd-words,
+                span.bottom-span {
+                  color: v.$main_words_color;
+                }
+                button.odd-words {
+                  border: none;
+                  outline: none;
+                  background-color: transparent;
+                  cursor: pointer;
+                }
+                button.button-go-login {
+                  border: none;
+                  outline: none;
+                  background-color: transparent;
+                  cursor: pointer;
+                }
+              }
+              div.text-remember {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 18px;
+                margin-top: -5px;
+                div.checkbox-box {
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                }
+              }
+              p.bottom-paragraph {
+                margin-top: 7px;
+                text-align: center;
+              }
+              button.sign-btn {
+                @include m.coButton(14px, 10px, 28px);
+                width: 100%;
+                margin-bottom: 10px;
+              }
+              button.google-btn {
+                @include m.coButton(14px, 8px, 28px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                width: 100%;
+                background-color: transparent;
+                border: 1px solid v.$border_input;
+                color: v.$border-button-transparent;
+                .googleLogo {
+                  width: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+      div.sign-right {
+        width: 650px;
+        height: 700px;
+        @media (max-width: 767.98px) {
+          width: 100%;
+          // height: 700px;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,881 @@
+{
+  "navBar": {
+    "lang": "en",
+    "logoBox": {
+      "logoSpan": "القمة"
+    },
+    "navList": [
+      "الصفحة الرئيسية",
+      "معلمون",
+      "الدورات",
+      "تواصل معنا"
+    ],
+    "downloadBtn": "تحميل التطبيق"
+  },
+  "home": {
+    "meta": {
+      "title": "القمة هي أكبر منصة تعليمية",
+      "description": "نحن مختلفون. القمة هي المنصة التعليمية الوحيدة التي تتيح لك تعلم كل شيء على منصة واحدة.",
+      "canonical": "/Home",
+      "meta": {
+        "charset": "utf-8",
+        "name": {
+          "keywords": "القمة التعليمية تعلم دراسة مدرسين دورات"
+        }
+      }
+    },
+    "landing": {
+      "mainHeader": {
+        "oddWord": "القمة",
+        "restHeader": "هي أكبر منصة تعليمية"
+      },
+      "description": "نحن مختلفون. القمة هي المنصة التعليمية الوحيدة التي تتيح لك تعلم كل شيء على منصة واحدة.",
+      "buttonGroup": {
+        "signUpNow": "سجل الان"
+      },
+      "bannerImgAlt": "صورة هبوط يحتوي على فريق العمل"
+    },
+    "statistics": {
+      "textBox": {
+        "secHeader": "نحن نؤمن بقوة الأرقام",
+        "statisticsDescription": "القمة هي المنصة التعليمية الوحيدة التي تتيح لك تعلم كل شيء على منصة واحدة."
+      },
+      "unitsBox": {
+        "stateItems": [
+          {
+            "id": "state1",
+            "num": "200,000",
+            "numDescription": "الطلاب النشطون"
+          },
+          {
+            "id": "state2",
+            "num": "500",
+            "numDescription": "المعلم"
+          },
+          {
+            "id": "state3",
+            "num": "+50.000",
+            "numDescription": "الدورة"
+          },
+          {
+            "id": " state4",
+            "num": "1000",
+            "numDescription": "أحداث حية"
+          }
+        ]
+      }
+    },
+    "benefitJoin": {
+      "benefitHeader": "فوائد خدمات التعلم عبر الإنترنت في",
+      "benefitParagraph": "القمة",
+      "benefitItems": [
+        {
+          "id": "BenefItems1",
+          "itemHeader": "قم بقياس أدائك",
+          "itemParagraph": "ستتمكن من الدراسة بسهولة وسرعة بمساعدة فريقنا."
+        },
+        {
+          "id": "BenefItems2",
+          "itemHeader": "الدراسة بسهولة",
+          "itemParagraph": "يمكنك إجراء اختبارات مجانية ستتمكن من معرفتها مستواك"
+        },
+        {
+          "id": "BenefItems3",
+          "itemHeader": "تحسين مهاراتك",
+          "itemParagraph": "نحن نعمل معًا في مجموعات مما يسهل عليك الأمر."
+        },
+        {
+          "id": "BenefItems3",
+          "itemHeader": "أسعار معقولة",
+          "itemParagraph": "اختر مدرسًا متمرسًا يناسب ميزانيتك."
+        }
+      ],
+      "benefitImgAlt": "صورة الاستفادة من الانضمام لنا"
+    },
+    "learning": {
+      "learnHeaderStart": "التعلم سيكون كذلك",
+      "learnHeaderSpan": "سهل وجيد",
+      "learnHeaderEnd": "معنا.",
+      "learningParagraph": "سنساعدك على معرفة مستواك الدراسي ومساعدتك على المضي قدمًا.",
+      "joinUsNow": "انضم إلينا الآن",
+      "learningImgAlt": "تعلم الأشخاص الذين يتحدثون معهم"
+    },
+    "getApp": {
+      "learnHeader": "احصل على تطبيقنا المجاني للجوال",
+      "getAppParagraph": "يمكنك تنزيل التطبيق مجانًا حتى تتمكن من الدراسة بسهولة. يمكنك تنزيل التطبيق من App Store أو google play.",
+      "getAppImgAlt1": "الصفحة الرئيسية علي تطبيق القمة على الهاتف المحمول",
+      "getAppImgAlt2": "صفحة المعلم علي القمة على الهاتف المحمول",
+      "downloadAppAlt1": "احصل على التطبيق علي App Store",
+      "downloadAppAlt12": "احصل على التطبيق علي Google play"
+    },
+    "opinionsUsers": {
+      "opinionsUsersHeader": "شهادة من مستخدمي القمة",
+      "opinionsUsersParagraph": "بعض الآراء من مستخدمينا وطلابنا.",
+      "opinionsPersons": [
+        {
+          "id": "person1",
+          "quoteParagraph": "أفضل حل لمن يريد العمل بجدول زمني مرن ولكنه لا يزال يحصل على دخل بدوام كامل.",
+          "personName": "غادة أحمد",
+          "personCareer": "معلم"
+        },
+        {
+          "id": "person2",
+          "quoteParagraph": "هل تريد معرفة المزيد عن هذه الميزة؟ شاهد فيديو المقدمة القصيرة وابدأ في مشاركة أفكارك وآرائك اليوم",
+          "personName": "سهي طارق",
+          "personCareer": "معلم"
+        },
+        {
+          "id": "person3",
+          "quoteParagraph": "أود أن أغتنم هذه الفرصة لأشكرك ، السيدة الرئيسية السيدة رحمة محمد",
+          "personName": "رحمة محمد",
+          "personCareer": "معلم"
+        }
+      ]
+    },
+    "footer": {
+      "LinkHelp": "مساعدة",
+      "LinkPrivacy": "الخصوصية",
+      "copyRight": "القمة. كل الحقوق محفوظة."
+    }
+  },
+  "loginPage": {
+    "meta": {
+      "title": "تسجيل الدخول إلى حسابك",
+      "description": "قم بتسجيل الدخول إلى حسابك في القمة لتبدأ رحلة التعلم الخاصة بك.",
+      "canonical": "/login",
+      "meta": {
+        "charset": "utf-8",
+        "name": {
+          "keywords": "القمة التعليمية تعلم دراسة مدرسين دورات تسجيل دخول تسجيل حساب"
+        }
+      }
+    },
+    "loginSignHeader": "تسجيل الدخول إلى حسابك",
+    "loginSignParagraph": "ابدأ رحلة التعلم الخاصة بك.",
+    "loginEmailLabel": "البريد الإلكتروني",
+    "loginEmailPlaceholder": "pat @ shuffle dev",
+    "loginPasswordLabel": "كلمة المرور",
+    "loginPasswordPlaceholder": "**********************",
+    "loginRememberMe": "تذكر أنا",
+    "loginForgetPassword": "هل نسيت كلمة المرور؟",
+    "loginLoginBtn": "تسجيل الدخول",
+    "loginBottomParagraph": "ليس لديك حساب؟",
+    "loginBottomSpan": "انشاء حساب"
+  },
+  "signUpPage": {
+    "meta": {
+      "title": "انضم إلى مجتمعنا",
+      "description": "انضم إلى Alqima لتبدأ رحلتك مع منصتنا.",
+      "canonical": "/signup",
+      "meta": {
+        "charset": "utf-8",
+        "name": {
+          "keywords": "القمة التعليمية تعلم دراسة مدرسين دورات تسجيل دخول تسجيل حساب"
+        }
+      }
+    },
+    "signupSignHeader": "انضم إلى مجتمعنا",
+    "signupSignParagraph": "ابدأ رحلتك مع منصتنا.",
+    "signupNameLabel": "الاسم *",
+    "signupNamePlaceholder": "أحمد",
+    "signupEmailLabel": "البريد الإلكتروني *",
+    "signupEmailPlaceholder": "pat@shuffle.dev",
+    "signupPasswordLabel": "كلمة المرور",
+    "signupPasswordPlaceholder": "*********************",
+    "signupRememberMe": "تذكرني",
+    "signupLoginBtn": "اشترك",
+    "signupGoogleBtn": "الدخول مع جوجل",
+    "signupBottomParagraph": "هل لديك حساب؟",
+    "signupBottomSpan": "تسجيل الدخول"
+  },
+  "coursesPage": {
+    "meta": {
+      "title": "الدورات",
+      "description": "تريد أن تتعلم الآن ، ابحث عن أي دورة",
+      "canonical": "/courses",
+      "meta": {
+        "charset": "utf-8",
+        "name": {
+          "keywords": "القمة ، تعليمية ، تعلم ، دراسة ، مدرسون ، دورات ، الكل ، عربي ، إنجليزي ، فيزياء ، كيمياء ، أحياء ، رياضيات ، تاريخ ، فرنسي"
+        }
+      }
+    },
+    "coursesLanding": {
+      "header": "تريد أن تتعلم الآن ، ابحث عن أي دورة",
+      "placeholder": "ابحث عن أي دورة",
+      "searchBtn": "بحث"
+    },
+    "allCourses": {
+      "header": "جميع الدورات",
+      "selectedLabel": "حدد عام دراستك:",
+      "options": [
+        {
+          "id": "teachersOption1",
+          "value": "All",
+          "text": "الكل"
+        },
+        {
+          "id": "teachersOption2",
+          "value": "firstGradeSecondary",
+          "text": "الصف الأول الثانوي"
+        },
+        {
+          "id": "teachersOption3",
+          "value": "secondYearSecondary",
+          "text": "الصف الثاني ثانوي"
+        },
+        {
+          "id": "teachersOption4",
+          "value": "thirdGradeSecondary",
+          "text": "الصف الثالث الثانوي"
+        }
+      ],
+      "headerFilter": [
+        "الكل",
+        "عربي",
+        "إنجليزي",
+        "فيزياء",
+        "كيمياء",
+        "علم الأحياء",
+        "رياضيات",
+        "تاريخ",
+        "فرنسي"
+      ],
+      "coursesNumberTitle": "دورة",
+      "sortedSelectedLabel": "مرتبة حسب:",
+      "sortedCoursesOptions": [
+        {
+          "id": "sortedCoursesOptions1",
+          "value": "All",
+          "text": "الكل"
+        },
+        {
+          "id": "sortedCoursesOptions2",
+          "value": "5",
+          "text": "تقييم 5"
+        },
+        {
+          "id": "sortedCoursesOptions3",
+          "value": "4",
+          "text": "تقييم 4"
+        },
+        {
+          "id": "sortedCoursesOptions4",
+          "value": "3",
+          "text": "تقييم 3"
+        }
+      ],
+      "coursesItems": {
+        "arabic": [
+          {
+            "id": "coursesArabicItem1",
+            "itemContentHeader": "عربي",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "firstGradeSecondary"
+          },
+          {
+            "id": "coursesArabicItem2",
+            "itemContentHeader": "عربي",
+            "rateNum": "4",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesArabicItem3",
+            "itemContentHeader": "عربي",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "thirdGradeSecondary"
+          }
+        ],
+        "english": [
+          {
+            "id": "coursesEnglishItem1",
+            "itemContentHeader": "إنجليزي",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesEnglishItem2",
+            "itemContentHeader": "إنجليزي",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesEnglishItem3",
+            "itemContentHeader": "إنجليزي",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          }
+        ],
+        "physics": [
+          {
+            "id": "coursesPhysicsItem1",
+            "itemContentHeader": "الفيزياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesPhysicsItem2",
+            "itemContentHeader": "الفيزياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesPhysicsItem3",
+            "itemContentHeader": "الفيزياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          }
+        ],
+        "chemistry": [
+          {
+            "id": "coursesChemistryItem1",
+            "itemContentHeader": "كيمياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesChemistryItem2",
+            "itemContentHeader": "كيمياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesChemistryItem3",
+            "itemContentHeader": "كيمياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          }
+        ],
+        "biology": [
+          {
+            "id": "coursesBiologyItem1",
+            "itemContentHeader": "الاحياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesBiologyItem2",
+            "itemContentHeader": "الاحياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesBiologyItem3",
+            "itemContentHeader": "الاحياء",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          }
+        ],
+        "maths": [
+          {
+            "id": "coursesMathsItem1",
+            "itemContentHeader": "رياضيات",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesMathsItem2",
+            "itemContentHeader": "رياضيات",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesMathsItem3",
+            "itemContentHeader": "رياضيات",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          }
+        ],
+        "history": [
+          {
+            "id": "coursesHistoryItem1",
+            "itemContentHeader": "تاريخ",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesHistoryItem2",
+            "itemContentHeader": "تاريخ",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesHistoryItem3",
+            "itemContentHeader": "تاريخ",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          }
+        ],
+        "french": [
+          {
+            "id": "coursesFrenchItem1",
+            "itemContentHeader": "فرنسي",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesFrenchItem2",
+            "itemContentHeader": "فرنسي",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          },
+          {
+            "id": "coursesFrenchItem3",
+            "itemContentHeader": "فرنسي",
+            "rateNum": "4.5",
+            "rateInfo": "(100)",
+            "contentParagraph": "أفضل طريقة لحل مشاكلك",
+            "participant": "1K مشارك",
+            "Hour": "15 ساعة",
+            "lecture": "15 محاضرة",
+            "personName": "غادة عبدالنبي",
+            "bottomPrice": "1000 ج",
+            "gradeYear": "secondYearSecondary"
+          }
+        ]
+      }
+    }
+  },
+  "teachersPage": {
+    "meta": {
+      "title": "معلمون",
+      "description": "لدينا +500 مدرس محترف في منصتنا ، يقومون بتدريس جميع المواد",
+      "canonical": "/teachers",
+      "meta": {
+        "charset": "utf-8",
+        "name": {
+          "keywords": "القمة ، تعليمية ، تعلم ، دراسة ، مدرسين ، دورات ، الكل ، ، الكل ، عربي ، إنجليزي ، فيزياء ، كيمياء ، أحياء ، رياضيات ، تاريخ ، فرنسي"
+        }
+      }
+    },
+    "teacherLanding": {
+      "header": "لدينا +500 مدرس محترف في منصتنا"
+    },
+    "allTeachers": {
+      "header": "كل المعلمين",
+      "selectedLabel": "حدد عام دراستك:",
+      "options": [
+        {
+          "id": "teachersOption1",
+          "value": "All",
+          "text": "الكل"
+        },
+        {
+          "id": "teachersOption2",
+          "value": "firstGradeSecondary",
+          "text": "الصف الأول الثانوي"
+        },
+        {
+          "id": "teachersOption3",
+          "value": "secondYearSecondary",
+          "text": "الصف الثاني الثانوي"
+        },
+        {
+          "id": "teachersOption4",
+          "value": "thirdGradeSecondary",
+          "text": "الصف الثالث الثانوي"
+        }
+      ],
+      "teachersItems": [
+        {
+          "id": "teachers1",
+          "name": "محمد أحمد",
+          "career": "مدرس لغة عربية",
+          "rate": "5.0",
+          "gradeYear": [
+            "firstGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers2",
+          "name": "محمد أحمد",
+          "career": "معلم لغة انجليزية",
+          "rate": "5.0",
+          "gradeYear": [
+            "firstGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers3",
+          "name": "غادة أحمد",
+          "career": "معلم تاريخ",
+          "rate": "5.0",
+          "gradeYear": [
+            "secondYearSecondary"
+          ]
+        },
+        {
+          "id": "teachers4",
+          "name": "علياء أحمد",
+          "career": "مدرس لغة فرنسية",
+          "rate": "5.0",
+          "gradeYear": [
+            "secondYearSecondary"
+          ]
+        },
+        {
+          "id": "teachers5",
+          "name": "محمد أحمد",
+          "career": "مدرس كيمياء",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers6",
+          "name": "فاطمة أحمد",
+          "career": "مدرس الفيزياء",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers7",
+          "name": "محمد أحمد",
+          "career": "مدرس مادة الرياضيات",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers8",
+          "name": "سهي محمد",
+          "career": "معلم العلوم",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers9",
+          "name": "محمد أحمد",
+          "career": "مدرس لغة عربية",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers10",
+          "name": "محمد أحمد",
+          "career": "مدرس لغة عربية",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers11",
+          "name": "محمد أحمد",
+          "career": "معلم لغة انجليزية",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers12",
+          "name": "غادة أحمد",
+          "career": "معلم تاريخ",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers13",
+          "name": "علياء أحمد",
+          "career": "مدرس لغة فرنسية",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers14",
+          "name": "محمد أحمد",
+          "career": "مدرس كيمياء",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers15",
+          "name": "فاطمة أحمد",
+          "career": "مدرس الفيزياء",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers16",
+          "name": "محمد أحمد",
+          "career": "مدرس مادة الرياضيات",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers17",
+          "name": "سهي محمد",
+          "career": "معلم العلوم",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers18",
+          "name": "محمد أحمد",
+          "career": "مدرس لغة عربية",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers19",
+          "name": "محمد أحمد",
+          "career": "مدرس مادة الرياضيات",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers20",
+          "name": "سهي محمد",
+          "career": "معلم العلوم",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        },
+        {
+          "id": "teachers21",
+          "name": "محمد أحمد",
+          "career": "مدرس لغة عربية",
+          "rate": "5.0",
+          "gradeYear": [
+            "thirdGradeSecondary"
+          ]
+        }
+      ]
+    }
+  },
+  "contactsPage": {
+    "meta": {
+      "title": "جهات الاتصال",
+      "description": "اتصل بنا إذا كان لديك أي مشكلة أو فكرة لمشاركتها معنا",
+      "canonical": "/contactus",
+      "meta": {
+        "charset": "utf-8",
+        "name": {
+          "keywords": "القمة ، تعليمي ، تعلم ، دراسة ، مدرسون ، دورات ، جهات اتصال ، بريد إلكتروني ، هاتف ، بريد إلكتروني ، بريد إلكتروني ، بريد إلكتروني ، بريد إلكتروني ، بريد إلكتروني ، بريد إلكتروني ، بريد إلكتروني ، بريد إلكتروني ، بريد إلكتروني ، بريد إلكتروني ، واتس اب ، رسالة ، إرسال"
+        }
+      }
+    },
+    "contactLanding": {
+      "header": "اتصل بنا إذا كان لديك أي مشكلة أو فكرة لمشاركتها معنا"
+    },
+    "contactItems": [
+      {
+        "id": "contactItem1",
+        "itemHeader": "هاتف",
+        "contactAddress": "+20105 252 5525"
+      },
+      {
+        "id": "contactItem2",
+        "itemHeader": "بريد جوجل",
+        "contactAddress": "anyl2@gmail.com"
+      },
+      {
+        "id": "contactItem3",
+        "itemHeader": "واتساب",
+        "contactAddress": "+20 122 556 555"
+      }
+    ],
+    "contactForm": {
+      "fromHeader": "أو املأ هذا النموذج",
+      "fromPlaceholder": {
+        "name": "اسم",
+        "email": "عنوان البريد الالكترونى",
+        "subject": "موضوعات",
+        "message": "رسالتك هنا"
+      },
+      "fromBtn": "أرسل رسالة"
+    }
+  },
+  "notFound": {},
+  "errorMsg": {
+    "required": "مطلوب",
+    "invalid": "تنسيق بريد إلكتروني غير صالح"
+  }
+}

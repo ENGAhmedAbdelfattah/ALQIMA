@@ -1,0 +1,19 @@
+@use "../../../common/variable" as v;
+
+div.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 65px);
+
+  p.not-found-paragraph {
+    font-size: 37px;
+    font-weight: bold;
+    color: v.$main-section-color;
+  }
+  span.not-found-span {
+    display: block;
+    font-size: 25px;
+  }
+}

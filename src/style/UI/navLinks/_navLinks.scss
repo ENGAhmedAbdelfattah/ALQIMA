@@ -1,0 +1,92 @@
+@use "../../common/variable" as v;
+@use "../../common/mixin" as m;
+
+nav.nav-links {
+  background-color: v.$main-section-color;
+  padding-top: 8px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+  div.container {
+    display: flex;
+    div.nav-box {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      div.list-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        @media (max-width: 767.98px) {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          padding: 5px 0;
+          transform: translateY(100%);
+          width: 100%;
+          background-color: v.$main-section-color;
+          border-top: 1px solid #999;
+          gap: 13px;
+        }
+        @media (max-width: 991.98px) {
+          gap: 28px;
+        }
+        ul.list-ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 45px;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          @media (max-width: 767.98px) {
+            gap: 15px;
+          }
+          @media (max-width: 991.98px) {
+            gap: 28px;
+          }
+          a.list-item {
+            text-decoration: none;
+            color: v.$nav_paragraph_color;
+            font-size: 14px;
+            transition: color 0.6s;
+            -webkit-transition: color 0.6s;
+            -moz-transition: color 0.6s;
+            -ms-transition: color 0.6s;
+            -o-transition: color 0.6s;
+            white-space: nowrap;
+            @media (max-width: 767.98px){
+              font-size: 12px;
+            }
+            &.active {
+              color: v.$secund_words_color;
+            }
+          }
+        }
+      }
+      div.sign-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+        font-size: 14px;
+        button.login {
+          border: none;
+          outline: none;
+          cursor: pointer;
+        }
+        button.login {
+          background-color: transparent;
+          color: v.$nav_paragraph_color;
+        }
+        a.navDownloadApp {
+          @include m.coButton(14px, 7px, 15px);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
