@@ -2,7 +2,7 @@
 
 ALQIMA is the project for Dross online.
 
-- the site puplish on: [open ALQIMA](https://capable-conkies-4bf443.netlify.app/)
+- the site puplish on: [open ALQIMA](https://zesty-centaur-442f0c.netlify.app/)
 
 ## 📝 Papar Information
 
