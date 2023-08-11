@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
 // libraries
 import React, { lazy, Suspense } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -24,6 +28,7 @@ const LazyTeachers = lazy(() => {
     return moduleExports;
   });
 });
+
 const LazyCourses = lazy(() => {
   return Promise.all([
     import("./../component/UI/pages/courses/Courses"),
@@ -33,6 +38,7 @@ const LazyCourses = lazy(() => {
     return moduleExports;
   });
 });
+
 const LazyContactUs = lazy(() => {
   return Promise.all([
     import("./../component/UI/pages/contactUs/ContactUs"),
@@ -86,7 +92,6 @@ function Router() {
       /> */}
 
       <Route path="home" element={<Home />} />
-
       <Route path="/" element={<Navigate to="/Home" />} />
       <Route
         path="teachers/:id"

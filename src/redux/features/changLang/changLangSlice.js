@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {

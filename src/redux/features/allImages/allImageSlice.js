@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
 import { createSlice } from "@reduxjs/toolkit";
 // import navBarImgs
 import logoImg from "./../../../assets/images/logo/logo1.png";

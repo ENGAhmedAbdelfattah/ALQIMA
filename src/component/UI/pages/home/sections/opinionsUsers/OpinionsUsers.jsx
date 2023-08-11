@@ -3,14 +3,7 @@ import { connect } from "react-redux";
 import OpinionsPerson from "./units/OpinionsPerson";
 
 function OpinionsUsers({ opinionsUsers, OpinionsUsersImgs, lang }) {
-  const [activeNum, setActiveNum] = useState(
-    0
-    // lang === "en"
-    //   ? 0
-    //   : lang === "ar"
-    //   ? Object.values(OpinionsUsersImgs).length
-    //   : 0
-  );
+  const [activeNum, setActiveNum] = useState(0);
   useEffect(() => {
     let activeNumClone = activeNum;
     let numIntervalOne = setInterval(() => {
@@ -26,7 +19,9 @@ function OpinionsUsers({ opinionsUsers, OpinionsUsersImgs, lang }) {
       clearInterval(numIntervalOne);
     };
   }, []);
-
+  const handleClick = (inx) => {
+    setActiveNum(inx);
+  }
   return (
     <section className="opinions-users">
       <div className="container">
@@ -54,6 +49,7 @@ function OpinionsUsers({ opinionsUsers, OpinionsUsersImgs, lang }) {
               <span
                 key={inx + el.id}
                 className={activeNum === inx ? "active" : ""}
+                onClick={() => handleClick(inx)}
               ></span>
             ))}
           </div>

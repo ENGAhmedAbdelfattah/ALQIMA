@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
 import { configureStore } from "@reduxjs/toolkit";
 // import { logger } from "redux-logger";
 import changLangReducer from "../features/changLang/changLangSlice";

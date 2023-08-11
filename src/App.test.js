@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
 import { render, screen } from '@testing-library/react';
 import App from './App';
 

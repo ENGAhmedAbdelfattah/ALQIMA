@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
 import Generator from 'react-router-sitemap-generator';
 import Router from '../router/Routers'; //import your react router component
 

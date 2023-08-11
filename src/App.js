@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
 import { Provider } from "react-redux";
 import store from "./redux/app/store";
 import NavBar from "./component/UI/navBar/NavBar";
